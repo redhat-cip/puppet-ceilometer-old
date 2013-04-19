@@ -6,11 +6,10 @@
 #
 class ceilometer::client (
   $ensure = 'present'
-) {
-
-  package { 'python-ceilometer':
+) inherits ::ceilometer::params {
+  
+  package { $client_package_name:
     ensure => $ensure,
-    name   => $::ceilometer::params::client_package_name,
   }
 
 }
