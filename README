@@ -2,6 +2,17 @@ puppet-ceilometer
 
 This is the ceilometer module.
 
+ _____________________________________________________
+/ This project has moved to                           \
+\ https://github.com/stackforge/puppet-ceilometer.git /
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
 License
 -------
 
